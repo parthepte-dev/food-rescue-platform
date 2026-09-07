@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import DonorPage from './pages/DonorPage';
 import NgoPage from './pages/NgoPage';
 import MatchingPage from './pages/MatchingPage';
+import AnalyticsPage from './pages/AnalyticsPage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/donor" element={<DonorPage />} />
         <Route path="/ngo" element={<NgoPage />} />
         <Route path="/matching" element={<MatchingPage />} />
+        <Route path="/analytics" element={<AnalyticsPage />} />
       </Routes>
     </BrowserRouter>
   );

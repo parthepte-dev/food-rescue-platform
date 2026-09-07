@@ -7,6 +7,7 @@ function Navbar() {
       <Link to="/donor" style={{ color: 'white' }}>Donor</Link>
       <Link to="/ngo" style={{ color: 'white' }}>NGO</Link>
       <Link to="/matching" style={{ color: 'white' }}>Matching</Link>
+      <Link to="/analytics" style={{ color: 'white' }}>Analytics</Link>
     </nav>
   );
 }
