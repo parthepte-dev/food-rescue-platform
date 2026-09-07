@@ -2,12 +2,12 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <div style={{ padding: '40px', textAlign: 'center' }}>
-      <h1>🍲 Smart Food Rescue & Distribution Platform</h1>
-      <p>Connecting donors, NGOs, and volunteers to reduce food waste.</p>
-      <div style={{ display: 'flex', gap: '20px', justifyContent: 'center', marginTop: '30px' }}>
-        <Link to="/donor"><button>Donor Dashboard</button></Link>
-        <Link to="/ngo"><button>NGO Dashboard</button></Link>
+    <div className="hero">
+      <h1>🍲 Smart Food Rescue & Distribution</h1>
+      <p>Connecting donors, NGOs, and volunteers with smart matching to reduce food waste and fight hunger.</p>
+      <div className="hero-buttons">
+        <Link to="/donor"><button className="btn">I'm a Donor</button></Link>
+        <Link to="/ngo"><button className="btn btn-outline">I'm an NGO</button></Link>
       </div>
     </div>
   );

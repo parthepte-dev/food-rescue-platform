@@ -5,6 +5,8 @@ import DonorPage from './pages/DonorPage';
 import NgoPage from './pages/NgoPage';
 import MatchingPage from './pages/MatchingPage';
 import AnalyticsPage from './pages/AnalyticsPage';
+import VolunteerTrackingPage from './pages/VolunteerTrackingPage';
+import TrackingMapPage from './pages/TrackingMapPage';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/ngo" element={<NgoPage />} />
         <Route path="/matching" element={<MatchingPage />} />
         <Route path="/analytics" element={<AnalyticsPage />} />
+        <Route path="/volunteer-tracking" element={<VolunteerTrackingPage />} />
+        <Route path="/track" element={<TrackingMapPage />} />
       </Routes>
     </BrowserRouter>
   );
